@@ -3,3 +3,55 @@ body {
   height: 100%;
   margin: 0;
 }
+
+h1 {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav {
+  text-align: center;
+}
+
+nav a {
+  
+  padding: 10px;
+  background: grey;
+}
+
+figcaption {
+  text-align: center;
+  font-size: small;
+  /* shirnk font size */
+  /* center font */
+}
+
+ section#featured-property p {
+  text-align: center;
+  margin: auto;
+  width: 800px;
+  padding-bottom:15px;
+  
+  /* hard width 800px */
+  /* center font */
+  /* Be sure to keep a little vertical space around the <p>s. */
+}
+
+section#details div {
+  float:left;
+  background: red;
+  text-align: center;
+  margin: auto;
+  width: 25%;
+  
+
+  /* make each of the <div>s float to the left */
+  /* same background color*/
+  /* same centered text */
+  /* occupy 25% of the width of the bottom row*/
+}
